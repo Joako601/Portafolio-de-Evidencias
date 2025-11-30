@@ -27,11 +27,52 @@ Cada actividad cuenta con su propio apartado y un diseño consistente que permit
 
 ## 📁 Estructura del Proyecto
 
-### Portafolio-de-Evidencias
-- 
-- 
-- 
-- 
+### Portafolio de Evidencias
+
+```
+Portafolio-de-Evidencias
+│
+├── actividades
+│   ├── actividad02
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   ├── actividad04
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   ├── actividad06
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   ├── actividad08
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   ├── actividad10
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   └── actividad12
+│   │    ├── index.html
+│   │    └── script.js
+│   │
+│   └── actividad14
+│       ├── index.html
+│       └── script.js
+│
+├── assets
+│   └── images
+│
+├── css
+│   └── style.css
+│
+├── js
+│   └── script_global.js
+│
+├── index.html
+└── README.md
+```
 
 ---
 
@@ -51,3 +92,4 @@ Cada actividad cuenta con su propio apartado y un diseño consistente que permit
 
 
 ---
+
