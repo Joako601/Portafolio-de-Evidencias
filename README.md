@@ -141,6 +141,54 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 ---
 
+## 🔧 Ejemplos de Código
+
+### Etiqueta Favorita: conexion del portafolio con las actividades
+html
+<div class="grid">
+    
+    <a class="card" href="actividades/actividad02/index.html">
+        <h2>Visualizador de la Recta Numérica</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad04/index.html">
+        <h2>Calculadora de Conversiones de Números Complejos</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad06/index.html">
+        <h2>Calculadora de Expresiones</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad08/index.html">
+        <h2>Calculadora de Variables</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad10/index.html">
+        <h2>Calculadora de Productos Notables</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad12/index.html">
+        <h2>División Sintética de Polinomios</h2>
+        <p>Descripción breve del proyecto.</p>
+    </a>
+
+    <a class="card" href="actividades/actividad14/index.html">
+        <h2>Calculadora Simbólica de Ecuaciones</h2>
+        <p>Calculadora para despejar ecuaciones.</p>
+    </a>
+
+</div>
+
+
+*Por qué me gusta:* permite la conexion del index principal(portafolio) con las actividades.
+
+---
+
 ## 📧 Contacto
 
 - *Email Institucional:* joaquin.uriona@tecdesoftware.edu.mx
@@ -176,6 +224,7 @@ Este proyecto es parte de las actividades académicas del *Tecnológico de Softw
 Hecho con 💙 por Joaquin Uriona - 2025
 
 </div>
+
 
 
 
