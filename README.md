@@ -205,6 +205,16 @@ git log --oneline --graph --decorate
 
 ---
 
+## 🎯 Próximos Pasos
+
+Este proyecto me prepara para:
++ ✨ Crear documentación más completa y profesional
++ 🖼️ Publicar y mantener proyectos en GitHub
++ 🔐 Implementación de GitHub y git en proyectos personales y laborales
+ 📊 Desarrollar proyectos más complejos.
+
+---
+
 ## 📧 Contacto
 
 - *Email Institucional:* joaquin.uriona@tecdesoftware.edu.mx
@@ -240,6 +250,7 @@ Este proyecto es parte de las actividades académicas del *Tecnológico de Softw
 Hecho con 💙 por Joaquin Uriona - 2025
 
 </div>
+
 
 
 
