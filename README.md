@@ -118,7 +118,26 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 ## 📚 Actividades Incluidas
 
++ ### Actividad 02 – Visualizador de la Recta Numérica
+    Permite representar números y visualizar su posición en la recta.
 
++ ### Actividad 04 – Calculadora de Conversión de Números Complejos
+   Transforma entre forma polar y rectangular.
+
++ ### Actividad 06 – Calculadora de Expresiones
+   Evalúa expresiones algebraicas introducidas por el usuario.
+
++ ### Actividad 08 – Calculadora de Variables
+   Permite realizar sustituciones y operaciones básicas con variables.
+
++ ### Actividad 10 – Calculadora de Productos Notables
+   Desarrolla y resuelve productos notables.
+
++ ### Actividad 12 – División Sintética de Polinomios
+   Realiza el proceso paso a paso de manera clara e interactiva.
+
++ ### Actividad 14 – Calculadora Simbólica de Ecuaciones
+   Permite despejar ecuaciones simbólicas automáticamente.
 
 ---
 
@@ -126,5 +145,6 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 
 ---
+
 
 
