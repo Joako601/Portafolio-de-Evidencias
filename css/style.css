@@ -10,7 +10,7 @@
     }
 
     body {
-        font-family: "Poppins", sans-serif;
+        font-family:'Courier New', Courier, monospace;
         background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
         color: white;
         display: flex;
@@ -102,4 +102,25 @@
         padding: 40px 10px;
         opacity: 0.6;
         font-size: 0.9rem;
+    }
+
+    @keyframes shine {
+    0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #36a8e1, 0 0 20px #36a8e1;
+    }
+    100% {
+    text-shadow: none;
+    }
+    }
+
+    h1:hover {
+    animation: shine 0.8s ease-in-out alternate;
+    }
+
+    header p:hover {
+    animation: shine 0.8s ease-in-out alternate;
+    }
+
+    footer:hover {
+    animation: shine 0.8s ease-in-out alternate;
     }
