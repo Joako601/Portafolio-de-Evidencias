@@ -141,6 +141,13 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 ---
 
+## 📧 Contacto
+
+- *Email Institucional:* joaquin.uriona@tecdesoftware.edu.mx
+- *GitHub:* Joako601(https://github.com/Joako601)
+
+---
+
 <div align="center">
 
 ## 📄 Licencia
@@ -164,6 +171,7 @@ Hecho con 💙 por Joaquin Uriona - 2025
 </div>
 
 ---
+
 
 
 
