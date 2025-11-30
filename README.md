@@ -148,6 +148,13 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 ---
 
+## 🤝 Agradecimientos
+
+- *Profesor Jorge Javier Pedrozo Romero* por la estructura del curso y la práctica
+- *Tecnológico de Software* por la formación integral
+
+---
+
 <div align="center">
 
 ## 📄 Licencia
@@ -170,7 +177,6 @@ Hecho con 💙 por Joaquin Uriona - 2025
 
 </div>
 
----
 
 
 
