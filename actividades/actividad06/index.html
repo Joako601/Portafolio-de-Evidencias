@@ -29,7 +29,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     line-height: 1.6;
     color: var(--negro);
-    background: linear-gradient(-45deg, rgb(37, 219, 232), #519ff8, #664ffe, #6a11cb);
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     transition: transform 0.3s ease;
 }
 
@@ -45,12 +45,13 @@ header h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    
+    text-decoration: underline;
 }
 
-h1, h2, footer:hover{
+header h1:hover{
     animation: shine 0.8s ease-in-out alternate;
 }
+
 
 .subtitle {
     font-size: 1.2rem;
@@ -80,10 +81,12 @@ h1, h2, footer:hover{
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px var(--sombra);
+    animation: prender-apagar 1.5s infinite alternate;
 }
 
 .column:hover{
     transform: translateY(-2px);
+
 }
 
 .column h2 {
@@ -93,7 +96,13 @@ h1, h2, footer:hover{
     text-align: center;
     border-bottom: 2px solid gray;
     padding-bottom: 0.5rem;
+    
 }
+
+.column h2:hover{
+    animation: shine 0.8s ease-in-out alternate;
+}
+
 
 /* Grupos de entrada */
 .input-group {
@@ -143,7 +152,7 @@ textarea::placeholder {
 }
 
 .convert-button:hover {
-    background-color: black;
+    filter: hue-rotate(50deg);
 }
 
 .convert-button:active {
@@ -157,6 +166,7 @@ textarea::placeholder {
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px var(--sombra);
+    animation: prender-apagar 1.5s infinite alternate;
 }
 
 .json-loader-section:hover{
@@ -167,6 +177,10 @@ textarea::placeholder {
     color: black;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.json-loader-section h2:hover{
+    animation: shine 0.8s ease-in-out alternate;
 }
 
 .json-loader {
@@ -255,6 +269,7 @@ textarea::placeholder {
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px var(--sombra);
+    animation: prender-apagar 1.5s infinite alternate;
 }
 
 .info-section:hover{
@@ -265,6 +280,10 @@ textarea::placeholder {
     color: black;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.info-section h2:hover{
+    animation: shine 0.8s ease-in-out alternate;
 }
 
 .info-cards {
@@ -319,6 +338,7 @@ textarea::placeholder {
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px var(--sombra);
+    animation: prender-apagar 1.5s infinite alternate;
 }
 
 .history-section:hover{
@@ -329,6 +349,10 @@ textarea::placeholder {
     color: black;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.history-section h2:hover{
+    animation: shine 0.8s ease-in-out alternate;
 }
 
 .history-controls {
@@ -388,6 +412,10 @@ footer {
     text-align: center;
     padding: 1.5rem;
     margin-top: 2rem;
+}
+
+footer:hover{
+    animation: shine 0.8s ease-in-out alternate;
 }
 
 footer p {
@@ -520,6 +548,24 @@ footer p {
 .add-pattern-btn:hover {
     background-color: var(--azul-oscuro);
 }
+
+@keyframes prender-apagar {
+      0% {
+        box-shadow: 0 0 5px #edefee, 0 0 10px #3be3f6 inset;
+        border-color: #3be3f6;
+      }
+      100% {
+        box-shadow: none;
+        border-color: #444;
+    }
+}
+
+textarea:focus{
+    border-color: rgb(37, 219, 232);
+    color: rgb(37, 219, 232);
+}
+
+
 </style>
 </head>
 <body>
