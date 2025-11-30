@@ -35,6 +35,19 @@
     width: 100%;
     max-width: 900px;
     animation: fadeSlideIn 1s ease forwards;
+    transition: border-color 0.3s ease;
+    animation: prender-apagar 1.5s infinite alternate;
+}
+
+@keyframes prender-apagar {
+      0% {
+        box-shadow: 0 0 5px #edefee, 0 0 10px #3be3f6 inset;
+        border-color: #3be3f6;
+      }
+      100% {
+        box-shadow: none;
+        border-color: #444;
+    }
 }
 
 @keyframes fadeSlideIn {
@@ -103,7 +116,7 @@ hr {
 #formulaLiteral {
     width: 100%;
     padding: 12px;
-    border: 1px solid #36a8e1;
+    border: 1px solid #000000;
     border-radius: 8px;
     font-size: 1.1em;
     margin-bottom: 15px;
@@ -261,7 +274,6 @@ footer:hover{
 
 input:focus{
     color: rgb(0, 234, 255);
-    background-color: rgb(0, 234, 255);
 }
 </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>

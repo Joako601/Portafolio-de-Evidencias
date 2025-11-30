@@ -15,7 +15,7 @@
 
 body {
     font-family:'Courier New', Courier, monospace;
-    background: linear-gradient(-45deg, rgb(37, 219, 232), #519ff8, #664ffe, #6a11cb);
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     min-height: 100vh;
     padding: 20px;
     display: flex;
@@ -31,7 +31,19 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     max-width: 800px;
     width: 100%;
-    
+    transition: border-color 0.3s ease;
+    animation: prender-apagar 1.5s infinite alternate;
+}
+
+@keyframes prender-apagar {
+      0% {
+        box-shadow: 0 0 5px #edefee, 0 0 10px #3be3f6 inset;
+        border-color: #3be3f6;
+      }
+      100% {
+        box-shadow: none;
+        border-color: #444;
+    }
 }
 
 h1 {
@@ -49,7 +61,7 @@ h1:hover{
 
 .subtitle {
     text-align: center;
-    color: rgb(37, 219, 232);
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
     font-size: 0.9em;
 }
@@ -74,7 +86,7 @@ label:hover{
     font-size: 0.85em;
     color: #666;
     margin-top: 5px;
-    color: rgb(37, 219, 232);
+    color: rgb(0, 0, 0);
     
 }
 
@@ -152,7 +164,7 @@ button:active {
 }
 
 .process-table tr:first-child td {
-    background: rgb(37, 219, 232);
+    background: rgb(0, 234, 255);
     color: white;
     font-weight: 500;
 }
