@@ -20,7 +20,7 @@ body {
     line-height: 1.4; 
     color: black; 
     padding: 10px;
-    background: linear-gradient(-45deg, rgb(37, 219, 232), #519ff8, #664ffe, #6a11cb);
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
 } 
  
 .container { 
@@ -31,6 +31,8 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 6px rgba(0,0,0,0.5),-2px -2px 5px rgba(255,255,255,0.3);
     border-radius: 15px;
+    animation: fadeSlideIn 1s ease forwards, prender-apagar 1.5s infinite alternate;
+    transition: border-color 0.3s ease;
 }
 /* ==================== ENCABEZADOS ==================== */ 
 h1 { 
@@ -38,7 +40,11 @@ h1 {
     margin-bottom: 10px; 
     text-align: center;
     text-decoration: underline;
-} 
+}
+
+h1:hover, h2:hover {
+  animation: shine 0.8s ease-in-out alternate;
+}
  
 h2 { 
     font-size: 35px; 
@@ -178,14 +184,18 @@ box-shadow: 0 4px 6px rgba(6, 143, 161, 0.68);
     margin-bottom: 20px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.5),-2px -2px 5px rgba(255,255,255,0.3);
     border-radius: 15px 0 0 15px;
-} 
+}
  
 .number-line-container h2 { 
     font-size: 18px; 
     margin-bottom: 15px; 
     text-align: center; 
     color: black; 
-} 
+}
+
+.number-line-container h2:hover{
+  animation: shine 0.8s ease-in-out alternate;
+}
  
 .number-line { 
     width: 100%; 
@@ -294,6 +304,12 @@ box-shadow: 0 4px 6px rgba(6, 143, 161, 0.68);
     border-bottom: 2px solid black; 
     padding-bottom: 5px; 
 }
+
+.classification-panel h3:hover, .points-panel h3:hover, .distance-calculator h3:hover {
+    animation: shine 0.8s ease-in-out alternate;
+}
+
+
 /* ================== LEYENDA DE CLASIFICACIÓN ================== */ 
 .classification-legend { 
     margin-bottom: 20px; 
@@ -508,6 +524,10 @@ footer{
     padding: 10px;
 }
 
+footer:hover{
+    animation: shine 0.8s ease-in-out alternate;
+}
+
 /* ==================== RESPONSIVE ==================== */ 
 @media (max-width: 768px) { 
     .container { 
@@ -522,6 +542,37 @@ footer{
 grid-template-columns: 1fr; 
 }
 } 
+
+@keyframes prender-apagar {
+      0% {
+        box-shadow: 0 0 5px #edefee, 0 0 10px #3be3f6 inset;
+        border-color: #3be3f6;
+      }
+      100% {
+        box-shadow: none;
+        border-color: #444;
+    }
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #36a8e1, 0 0 20px #36a8e1;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
 </style>
 </head> 
 <body> 
