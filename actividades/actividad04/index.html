@@ -16,7 +16,7 @@
 /* ==================== ESTRUCTURA GENERAL ==================== */ 
 body { 
     font-family:'Courier New', Courier, monospace;
-    background: linear-gradient(-45deg, rgb(37, 219, 232), #519ff8, #664ffe, #6a11cb);
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     padding: 20px; 
     line-height: 1.6; 
     color: #000000;
@@ -30,11 +30,10 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     padding: 30px;
     font-weight: 600;
-    
+    animation: fadeSlideIn 1s ease forwards, prender-apagar 1.5s infinite alternate;
+    transition: border-color 0.3s ease;
 }
 
-
- 
 /* ==================== ENCABEZADOS ==================== */ 
 h1 { 
     text-align: center; 
@@ -189,13 +188,12 @@ input[readonly] {
 
 
 .input-group input:active {
-    background-color: #6a11cb;
     transform: scale(0.95);}
 
 .input-group input:focus { 
     outline: none;
-    border-color: #6a11cb;
-    box-shadow: 0 0 8px #6a11cb;}
+    border-color: rgb(0, 234, 255);
+}
 
 .obligatorio{
     text-align: center;
@@ -208,7 +206,7 @@ input[readonly] {
 }
 
 .ej{
-    background-color: #b4afaf;
+    background-color: #ffffff;
 }
 
 footer{
@@ -226,6 +224,28 @@ animation: shine 0.8s ease-in-out alternate;
   }
   100% {
     text-shadow: none;
+  }
+}
+
+@keyframes prender-apagar {
+      0% {
+        box-shadow: 0 0 5px #edefee, 0 0 10px #3be3f6 inset;
+        border-color: #3be3f6;
+      }
+      100% {
+        box-shadow: none;
+        border-color: #444;
+    }
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
