@@ -189,6 +189,22 @@ html
 
 ---
 
+## 📝 Historial de Commits
+
+# Ver mi historial completo
+git log --oneline --graph --decorate
+
+
+*Commits destacados:*
+- feat: Inicializacion del repositorio
+- feat: Conexion del repositorio local
+- feat: Agregar README al repositorio
+- feat: Cambios visuales en el index pricipal y la actividad 14
+- feat: Creacion de la estructura inicial del README
+- docs: Agregar seccion de proximos pasos en el README
+
+---
+
 ## 📧 Contacto
 
 - *Email Institucional:* joaquin.uriona@tecdesoftware.edu.mx
@@ -224,6 +240,7 @@ Este proyecto es parte de las actividades académicas del *Tecnológico de Softw
 Hecho con 💙 por Joaquin Uriona - 2025
 
 </div>
+
 
 
 
