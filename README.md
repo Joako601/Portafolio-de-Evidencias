@@ -78,7 +78,41 @@ Portafolio-de-Evidencias
 
 ## 🎨 Diseño y Estilos
 
+Todos los **index.html** del portafolio comparten un **estilo coherente y moderno**, incluyendo:
 
+### 🖋 Tipografías
+- `Courier New, Courier, monospace`
+
+### 🎨 Paleta de Colores
+- Fondo degradado: `#0f0f0f → #1a1a1a`  
+- Tarjetas con blanco: `rgb(255, 255, 255`
+- Bordes suaves con vidrio esmerilado: `rgb(255, 255, 255)`
+- Bordes con animacion
+- Texto en blanco, gris t negro con distintas tonalidades
+
+### ✨ Efectos y Animaciones
+
+- **Efecto en el contenedor (`.container`)**  
+  Contiene una animación que ilumina suavemente los bordes usando `box-shadow` y `border-color`, creando un efecto de encendido y apagado continuo.
+
+- **Efecto en el título (`h1:hover`)**  
+  El título principal aplica un brillo azul cuando el usuario pasa el cursor por encima.
+  
+- **Efecto en los subtitulos (`h2:hover`)**  
+  Los titulos secundarios aplica un brillo azul cuando el usuario pasa el cursor por encima.
+
+- **Efecto en labels y footer**  
+  Tanto los labels de los inputs como el footer reaccionan con un brillo suave al usar `:hover`.
+
+- **Transiciones fluidas globales**  
+  La mayoría de los elementos utilizan `transition: all 0.3s ease`, logrando animaciones suaves al cambiar colores, sombras y transformaciones.
+
+- **Interacciones visuales en inputs y botones**  
+  + Los inputs cambian color de borde y texto al recibir foco (`:focus`).  
+  + Los botones tienen efectos dinámicos con `hue-rotate` y un leve desplazamiento al hacer hover.
+
+- **Sombras y profundidad visual**  
+  Uso de `box-shadow` para generar tarjetas y contenedores con mayor contraste y sensación de relieve.
 
 ---
 
@@ -92,4 +126,5 @@ Portafolio-de-Evidencias
 
 
 ---
+
 
