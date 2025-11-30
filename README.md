@@ -141,10 +141,20 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 
 ---
 
+<div align="center">
+  
 ## ✨ Autor
 
+<div align="center">
+
+*⭐ Si te gustó este portafolio, dale una estrella ⭐*
+
+Hecho con 💙 por Joaquin Uriona - 2025
+
+</div>
 
 ---
+
 
 
 
