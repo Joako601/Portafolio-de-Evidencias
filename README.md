@@ -142,6 +142,16 @@ Todos los **index.html** del portafolio comparten un **estilo coherente y modern
 ---
 
 <div align="center">
+
+## 📄 Licencia
+
+Este proyecto es parte de las actividades académicas del *Tecnológico de Software* y está bajo la licencia MIT.
+
+<div align="center">
+
+---
+
+<div align="center">
   
 ## ✨ Autor
 
@@ -154,6 +164,7 @@ Hecho con 💙 por Joaquin Uriona - 2025
 </div>
 
 ---
+
 
 
 
